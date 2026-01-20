@@ -48,7 +48,7 @@ public class DonationPlugin extends JavaPlugin {
         // Load the donation goal
         DonationGoal.onLoad();
         // Register the command
-        new MainCommand();
+        new MainCommand().register();
         // bStats metrics
         new Metrics(this, 10310);
         HEX_AVAILABLE = Bukkit.getVersion().contains("1.16") ||

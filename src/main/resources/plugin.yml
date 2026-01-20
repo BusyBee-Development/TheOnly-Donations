@@ -1,6 +1,6 @@
 name: AvatarDonation
 version: '${project.version}'
-api-version: 1.13
+api-version: 1.21
 authors: [aglerr, starfruit2210]
 main: me.aglerr.donations.DonationPlugin
 softdepend:
